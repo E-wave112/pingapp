@@ -1,0 +1,85 @@
+/* base styles */
+@import url('');
+#body{
+    width:70%;
+    margin:auto;
+}
+*,::before,::after{
+    box-sizing:border-box;
+}
+
+.launch {
+    font-size:xx-large;
+    font-weight:100;
+}
+
+#spanni {
+    font-weight:bold;
+}
+
+/* .img {
+    position:relative;
+} */
+
+.btn{
+    border-radius:12%;
+    cursor:pointer;
+}
+
+.para {
+    color:hsl(0, 0%, 59%);
+}
+.flex-div{
+    width:70%;
+    margin:auto;
+}
+.btn-light:hover{ 
+    background-color:hsl(223, 87%, 63%)
+}
+.btn-light{
+    border-radius:50%;
+}
+
+@media (min-width: 375px) { 
+    .img {
+        max-width: 100%;
+        height:auto;
+        object-fit: cover;
+    }
+    
+    .logo{
+
+        max-width:100%;
+        height:auto;
+        object-fit:cover;
+        margin-left:40%;
+    }
+
+    header {
+
+        text-align:center;
+    }
+    .form-inline{
+        margin-left:20%;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+
+@media (min-width: 992px) { 
+
+    .flex-div{
+        margin-left:60%;
+    }
+ }
+
+ @media (min-width: 600px) {
+     .flex-div{
+         margin-left:35%;
+     }
+ }
