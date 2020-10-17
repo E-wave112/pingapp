@@ -1,6 +1,7 @@
 /* base styles */
-@import url('');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&display=swap');
 #body{
+    
     width:70%;
     margin:auto;
 }
