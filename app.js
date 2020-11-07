@@ -12,12 +12,12 @@ Btn.addEventListener('click',(e)=>{
     }else if (formEl.value === ''){
         errMsg.textContent = 'field cannnot be blank !'
         errMsg.style.color = 'red'
-        formEl.focus();
+        //formEl.focus();
         return false
     }else {
         errMsg.textContent = 'Please enter a valid email address!';
         errMsg.style.color = 'red';
-        formEl.focus();
+        //formEl.focus();
         return false
     }
     

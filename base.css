@@ -1,7 +1,7 @@
 /* base styles */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&display=swap');
 #body{
-    
+    font-family: 'Libre Franklin',sans-serif;   
     width:70%;
     margin:auto;
 }
@@ -35,12 +35,20 @@
     margin:auto;
 }
 .btn-light:hover{ 
-    background-color:hsl(223, 87%, 63%)
+    background-color:hsl(223, 87%, 63%);
 }
 .btn-light{
     border-radius:50%;
 }
+button{
+    background-color: hsl(223, 87%, 63%);
+    color: #ffffff;
+}
 
+form {
+    display:table;/* shrinks to fit content */
+    margin:auto;
+}
 @media (min-width: 375px) { 
     .img {
         max-width: 100%;
@@ -68,6 +76,9 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+    /* button {
+        transform:translate(290%,-208%);
+    } */
 
 }
 
