@@ -1,97 +1,93 @@
 /* base styles */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&display=swap');
-#body{
-    font-family: 'Libre Franklin',sans-serif;   
-    width:70%;
-    margin:auto;
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&display=swap");
+#body {
+  font-family: "Libre Franklin", sans-serif;
+  width: 70%;
+  margin: auto;
 }
-*,::before,::after{
-    box-sizing:border-box;
+*,
+::before,
+::after {
+  box-sizing: border-box;
 }
 
 .launch {
-    font-size:xx-large;
-    font-weight:100;
+  font-size: xx-large;
+  font-weight: 100;
 }
 
 #spanni {
-    font-weight:bold;
+  font-weight: bold;
 }
 
 /* .img {
     position:relative;
 } */
 
-.btn{
-    border-radius:12%;
-    cursor:pointer;
+.btn {
+  border-radius: 12%;
+  cursor: pointer;
 }
 
 .para {
-    color:hsl(0, 0%, 59%);
+  color: hsl(0, 0%, 59%);
 }
-.flex-div{
-    width:70%;
-    margin:auto;
+.flex-div {
+  width: 70%;
+  margin: auto;
 }
-.btn-light:hover{ 
-    background-color:hsl(223, 87%, 63%);
+.btn-light:hover {
+  background-color: hsl(223, 87%, 63%);
 }
-.btn-light{
-    border-radius:50%;
+.btn-light {
+  border-radius: 50%;
 }
-button{
-    background-color: hsl(223, 87%, 63%);
-    color: #ffffff;
+button {
+  background-color: hsl(223, 87%, 63%);
+  color: #ffffff;
 }
 
 form {
-    display:table;/* shrinks to fit content */
-    margin:auto;
+  display: table; /* shrinks to fit content */
+  margin: auto;
 }
-@media (min-width: 375px) { 
-    .img {
-        max-width: 100%;
-        height:auto;
-        object-fit: cover;
-    }
-    
-    .logo{
+@media (min-width: 375px) {
+  .img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 
-        max-width:100%;
-        height:auto;
-        object-fit:cover;
-        margin-left:40%;
-    }
+  .logo {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-left: 40%;
+  }
 
-    header {
-
-        text-align:center;
-    }
-    .form-inline{
-        margin-left:20%;
-    }
-
+  header {
+    text-align: center;
+  }
+  .form-inline {
+    margin-left: 20%;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    /* button {
+@media (min-width: 768px) {
+  /* button {
         transform:translate(290%,-208%);
     } */
-
 }
 
+@media (min-width: 992px) {
+  .flex-div {
+    margin-left: 60%;
+  }
+}
 
-@media (min-width: 992px) { 
-
-    .flex-div{
-        margin-left:60%;
-    }
- }
-
- @media (min-width: 600px) {
-     .flex-div{
-         margin-left:35%;
-     }
- }
+@media (min-width: 600px) {
+  .flex-div {
+    margin-left: 35%;
+  }
+}
